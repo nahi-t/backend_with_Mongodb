@@ -12,7 +12,7 @@ const gendraschema = new mongoose.Schema({
 });
 
 // Create model
-const Gendra = mongoose.model('movies', gendraschema);
+const Gendra = mongoose.model('Gendra', gendraschema);
 
 
 // Validation
